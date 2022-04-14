@@ -1,0 +1,57 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:padding="8dp">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:background="@drawable/shape_round_corner2"
+
+        >
+
+
+        <com.stfalcon.chatkit.utils.ShapeImageView
+            android:id="@+id/userAvatar"
+            android:layout_alignParentTop="true"
+            android:layout_width="@dimen/dialog_avatar_width"
+            android:layout_height="@dimen/dialog_avatar_height"
+            android:layout_marginEnd="6dp" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_alignTop="@id/userAvatar"
+            android:layout_toEndOf="@id/userAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="4dp"
+            android:text=""
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/isUserOnline"
+            android:layout_alignBottom="@id/userAvatar"
+            android:layout_toRightOf="@id/userAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="4dp"
+            android:text=""
+            android:textSize="15sp" />
+        <!--    <TextView-->
+        <!--        android:id="@+id/userSigning"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="30dp"-->
+        <!--        android:layout_toEndOf="@id/userAvatar"-->
+        <!--        android:layout_alignBottom="@id/userAvatar"-->
+        <!--        android:padding="3dp"-->
+        <!--        android:text="个性签名（这个花里胡哨的功能还没有开通）"-->
+        <!--        />-->
+    </RelativeLayout>
+</LinearLayout>
+

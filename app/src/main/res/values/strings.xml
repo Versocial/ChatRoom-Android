@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">vsper</string>
+    <string name="share">个人信息</string>
+    <string name="home">主页</string>
+    <string name="settings">设置</string>
+    <string name="other">更多</string>
+    <string name="about">注册</string>
+    <string name="drawer_open">\"open\"</string>
+    <string name="drawer_close">\"close\"</string>
+    <string name="debug">debug</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="loginButton">loginButton</string>
+    <string name="signIn"> 立即注册 </string>
+    <string name="signInAccount">请输入账号</string>
+    <string name="signInPassWord">请输入密码</string>
+    <string name="hint_enter_a_message">点击输入</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="dialog_toolbar_title">Vsper</string>
+    <string name="action_cancel">Cancel</string>
+
+    <string name="check_new_version">正在检测版本</string>
+    <string name="there_no_new_version">当前版本是最新版本</string>
+    <string name="dialog_choose_update_title">发现了新版本</string>
+    <string name="dialog_choose_update_content">升级</string>
+    <string name="dialog_btn_confirm_download">升级</string>
+    <string name="dialog_btn_cancel_download">忽略</string>
+    <string name="updateButton">update_button</string>
+    <string name="serverIPPortButton">serverIp</string>
+    <string name="accountButton">account</string>
+    <string name="passwordButton">password</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="commitUserInfoButton">commit</string>
+    <string name="inputAvatar">请输入头像url</string>
+    <string name="inputName">请输入nick</string>
+    <string name="pushUserInfoButton">PUSH</string>
+    <string name="nightMod">nightMod</string>
+    <string name="msgFreeCopy">msgFreeCopy</string>
+    <string name="autoUpdate">autoUpdate</string>
+    <string name="foreService">foreService</string>
+    <string name="autoLogin">autoLogin</string>
+    <string name="navitationTitle">Vsper</string>
+    <string name="todo_main_baskspace">TODO</string>
+    <string name="chat_date_header_today">今天</string>
+    <string name="chat_date_header_yesterday">昨天</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contacts">联系人</string>
+</resources>

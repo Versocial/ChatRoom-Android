@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="200"
+    android:viewportWidth="200">
+    <path
+        android:fillColor="@color/dialog_input_icon_round_back"
+        android:pathData="M 87.00,12.43
+    C 114.59,9.02 143.02,17.19 162.91,37.09
+    203.94,78.11 193.90,149.74 143.00,177.69
+    125.64,187.22 112.18,188.22 93.00,188.00
+    61.73,187.63 29.99,163.49 18.45,135.00
+    11.98,119.01 11.97,111.65 12.00,95.00
+    12.01,85.82 13.45,79.64 16.33,71.00
+    27.14,38.59 53.73,17.88 87.00,12.43 Z" />
+</vector>

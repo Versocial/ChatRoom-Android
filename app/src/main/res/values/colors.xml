@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#FF9999</color>
+    <color name="primaryColor">#FFBB86FC</color>
+    <color name="primaryBackGround">#e8e8e8</color>
+    <color name="summaryText">#AAAAAA</color>
+    <color name="bottomNavgationBar">@color/purple_200</color>
+
+    <color name="dialog_name_text_in_list">@color/dialog_title_text</color>
+    <color name="prefs_subtitle">@color/purple_200</color>
+    <color name="debug_switch_text">@color/purple_500</color>
+    <color name="dialog_icon_color">@color/green</color>
+    <color name="dialog_icon_color_pressed">@color/green_dark</color>
+    <color name="dialog_input_icon_disabled_color">@color/white60</color>
+    <color name="dialog_input_icon_color">@color/white</color>
+    <color name="dialog_input_text">@color/black</color>
+    <color name="dialog_input_dividing_line">@color/gray_dark_transparent</color>
+    <color name="dialog_toolbar_title">@color/gray_light</color>
+    <color name="dialog_toolbar">#38be55</color>
+    <color name="dialog_input_icon_round_back">#38be55</color>
+    <color name="ContactBackGround">@color/light_blue_600</color>
+
+    <color name="create_blue_dark">#003366</color>
+    <color name="create_blue_night">#0033CC</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent_half">#80FFFFFF</color>
+    <color name="transparent_half2">#80000000</color>
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="brown">#4e342e</color>
+    <color name="yellow">#FFCC00</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

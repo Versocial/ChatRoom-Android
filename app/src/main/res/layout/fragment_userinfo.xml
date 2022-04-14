@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_background">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userinfo_avatar"
+        android:layout_width="@dimen/userinfo_avatar_height"
+        android:layout_height="@dimen/userinfo_avatar_weight"
+        android:layout_above="@id/userinfo_name"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <EditText
+        android:id="@+id/userinfo_name"
+        android:layout_above="@id/inputName"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="28dp"
+        android:textColor="@color/white_four" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/shape_round_corner"
+        android:hint="@string/inputName"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:id="@+id/inputAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputName"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/shape_round_corner"
+        android:hint="@string/inputAvatar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputAvatar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/commitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_round_corner"
+            style="@style/roundbutton"
+            android:text="@string/commitUserInfoButton"
+            android:textColor="@color/purple_700"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/pushButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_round_corner"
+            style="@style/roundbutton"
+            android:text="@string/pushUserInfoButton"
+            android:textColor="@color/purple_500"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="20dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

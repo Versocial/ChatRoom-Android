@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in_background">
+
+    <EditText
+        android:id="@+id/signInAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/shape_round_corner"
+        android:hint="@string/signInAccount" />
+
+    <EditText
+        android:id="@+id/signInPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInAccount"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/shape_round_corner"
+        android:hint="@string/signInPassWord" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInPassWord"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_round_corner"
+        style="@style/roundbutton"
+        android:text="@string/signIn"
+        android:textColor="@color/purple_700"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

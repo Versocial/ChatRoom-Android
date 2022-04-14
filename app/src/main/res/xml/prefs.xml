@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><!--最新栏目的新闻-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout="@layout/preference_item"
+    android:title="@string/title_activity_setting">
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="服务器设置">
+        <EditTextPreference
+            android:key="@string/serverIPPortButton"
+            android:title="server IP:port"
+            android:summary="Click to pop up a field for entry"
+            android:dialogTitle="Format: something like '127.0.0.1:8081'"
+            android:defaultValue="127.0.0.1:8081" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="账号与密码">
+        <EditTextPreference
+            android:key="@string/accountButton"
+            android:title="account: *"
+            android:summary="Click to pop up a field for entry"
+            android:dialogTitle="Format: something like 'username'"
+            android:defaultValue="#username" />
+        <EditTextPreference
+            android:key="@string/passwordButton"
+            android:title="password: *"
+            android:summary="Click to pop up a field for entry"
+            android:dialogTitle="Format: something like 'password'"
+            android:defaultValue="#password" />
+        <Preference
+            android:key="@string/loginButton"
+            android:layout="@layout/preference_item"
+            android:summary="点击立即登录/重新登录"
+            android:title="Login" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="本地设置">
+        <CheckBoxPreference
+            android:key="@string/nightMod"
+            android:layout="@layout/preference_item"
+            android:summary="夜间模式(已开通)"
+            android:title="夜间模式"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="@string/msgFreeCopy"
+            android:layout="@layout/preference_item"
+            android:summary="勾选后消息自由复制"
+            android:title="消息自由复制"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="@string/autoLogin"
+            android:layout="@layout/preference_item"
+            android:summary="勾选后打开app时自动登录"
+            android:title="自动登录"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="@string/autoUpdate"
+            android:layout="@layout/preference_item"
+            android:summary="打开app时自动检查更新"
+            android:title="自动检查更新"
+            android:persistent="true" />
+        <CheckBoxPreference
+            android:key="@string/foreService"
+            android:layout="@layout/preference_item"
+            android:summary="打开app时运行在前台"
+            android:title="前台运行暂未开通"
+            android:persistent="true" />
+        <Preference
+            android:layout="@layout/preference_item"
+            android:summary="删除自动保存在本地100天以上的所有聊天记录"
+            android:title="清空远期聊天记录" />
+        <Preference
+            android:layout="@layout/preference_item"
+            android:summary="删除自动保存在本地的所有聊天记录"
+            android:title="清空所有聊天记录" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="其他说明">
+        <Preference
+            android:key="@string/updateButton"
+            android:layout="@layout/preference_item"
+            android:summary="vpser"
+            android:title="当前版本（点击更新）" />
+        <Preference
+            android:layout="@layout/preference_item"
+            android:summary="匿名"
+            android:title="作者" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

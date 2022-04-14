@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="userinfo_avatar_height">160dp</dimen>
+    <dimen name="userinfo_avatar_weight">160dp</dimen>
+    <dimen name="msg_text_size">14sp</dimen>
+</resources>

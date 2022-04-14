@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#6666CC</color>
+    <color name="primaryColor">#303030</color>
+    <color name="primaryBackGround">#303030</color>
+    <color name="summaryText">#AAAAAA</color>
+    <color name="bottomNavgationBar">@color/create_blue_dark</color>
+    <color name="dialog_name_text_in_list">@color/ivory_dark</color>
+
+    <color name="prefs_subtitle">#FFCC99</color>
+    <color name="debug_switch_text">#FF9966</color>
+    <color name="dialog_icon_color">#6666CC</color>
+    <color name="dialog_icon_color_pressed">#6633FF</color>
+    <color name="dialog_input_icon_disabled_color">@color/white60</color>
+    <color name="dialog_input_icon_color">@color/white</color>
+    <color name="dialog_input_dividing_line">#9999FF</color>
+    <color name="dialog_input_text">@color/white</color>
+    <color name="dialog_toolbar_title">@color/white60</color>
+    <color name="dialog_toolbar">#222222</color>
+    <color name="dialog_input_icon_round_back">#333399</color>
+</resources>

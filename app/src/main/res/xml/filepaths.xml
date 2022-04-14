@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <root-path
+            name="v_root"
+            path="" />
+        <files-path
+            name="v_files"
+            path="file/" />
+        <cache-path
+            name="v_cache"
+            path="cache/" />
+        <external-files-path
+            name="external-files-path"
+            path="extF/" />
+        <external-path
+            name="v_external_path"
+            path="extP/" />
+    </paths>
+</resources>
