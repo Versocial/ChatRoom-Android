@@ -11,14 +11,16 @@ import vsper.app.chat.user.User
 import vsper.app.utils.AppUtils
 
 /*what*/class ContactViewHolder(val itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+    private val userName:TextView=itemView.findViewById<TextView>(R.id.userName)
+    private val isOnline:TextView=itemView.findViewById<TextView>(R.id.isUserOnline)
     fun bind(user: User){
         Picasso.get().load(user.avatar).into(itemView.findViewById(R.id.userAvatar) as ShapeImageView)
-        itemView.findViewById<TextView>(R.id.userName).text=user.name
-        itemView.findViewById<TextView>(R.id.isUserOnline).text=if(user.isOnline){"在线"}else{"已下线"}
-        itemView.findViewById<TextView>(R.id.isUserOnline).setTextColor(
+        userName.text=user.name
+        isOnline.text=if(user.isOnline){"在线"}else{"已下线"}
+        isOnline.setTextColor(
             if(user.isOnline){AppUtils.getColor(colorId = R.color.green)}
             else{AppUtils.getColor(colorId = R.color.yellow)}
         )
     }
+
 }
